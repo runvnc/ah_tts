@@ -1,7 +1,7 @@
 import torch
 from TTS.api import TTS
-from ..services import service
-from ..commands import command
+from lib.providers.services import service
+from lib.providers.commands import command
 import nanoid
 import os
 
